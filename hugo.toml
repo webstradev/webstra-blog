@@ -7,8 +7,28 @@ theme = "anatole"
 
 [params]
   title = "webstradev"
-  description = "Webstra Dev Blog"
+  description = "Erik Westra"
   author = "Erik Westra (webstradev)"
   profilePicture = "images/profile.jpg"
   favicon = "favicons/"
   keywords = ""
+  
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://link.webstra.dev/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://git.webstra.dev/"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "twitter"
+url = "https://x.webstra.dev/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:erik@webstra.dev"
