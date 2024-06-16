@@ -1,9 +1,14 @@
 baseURL = 'https://blog.webstra.dev/'
 languageCode = 'en-us'
 title = 'WebstraDev Blog'
+publishDir = "public"
 
 theme = "anatole"
 
 [params]
+  title = "webstradev"
   description = "Webstra Dev Blog"
   author = "Erik Westra (webstradev)"
+  profilePicture = "images/profile.jpg"
+  favicon = "favicons/"
+  keywords = ""
