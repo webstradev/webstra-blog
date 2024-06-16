@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on WebstraDev Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://blog.webstra.dev/posts/</link>
     <description>Recent content in Posts on WebstraDev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jun 2024 20:24:07 +0200</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2024 20:24:07 +0200</lastBuildDate><atom:link href="https://blog.webstra.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/posts/test/</link>
+      <link>https://blog.webstra.dev/posts/test/</link>
       <pubDate>Sun, 16 Jun 2024 20:24:07 +0200</pubDate>
       
-      <guid>http://localhost:1313/posts/test/</guid>
+      <guid>https://blog.webstra.dev/posts/test/</guid>
       
         <description>This is a simple test blog to test the new deployment.</description>
       
