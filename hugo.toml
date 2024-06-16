@@ -1,7 +1,7 @@
 baseURL = 'https://blog.webstra.dev/'
 languageCode = 'en-us'
 title = 'WebstraDev Blog'
-publishDir = "public"
+publishDir = "docs"
 
 theme = "anatole"
 
