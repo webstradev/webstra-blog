@@ -12,6 +12,7 @@ theme = "anatole"
   profilePicture = "images/profile.jpg"
   favicon = "favicons/"
   keywords = ""
+  contentratio = 0.75
   
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
