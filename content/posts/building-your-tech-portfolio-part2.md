@@ -3,6 +3,7 @@ title = 'Building your Tech Portfolio. - Part 2'
 description = 'Organizing your existing projects on GitHub'
 date = 2022-11-25T20:24:07+02:00
 draft = false
+tags = ['portfolio', 'coding', 'projects', 'software-engineering']
 +++
 #### Organizing your existing projects on GitHub.
 

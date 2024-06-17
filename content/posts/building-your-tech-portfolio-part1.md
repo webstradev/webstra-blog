@@ -3,6 +3,7 @@ title = 'Building your Tech Portfolio. - Part 1'
 description = 'A series on building your coding projects the right way, from the very beginning.'
 date = 2022-11-15T20:24:07+02:00
 draft = false
+tags = ['portfolio', 'coding', 'projects', 'software-engineering']
 +++
 #### A series on building your coding projects the right way, from the very beginning.
 

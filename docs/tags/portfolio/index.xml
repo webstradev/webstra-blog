@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on WebstraDev Blog</title>
+    <link>https://blog.webstra.dev/tags/portfolio/</link>
+    <description>Recent content in Portfolio on WebstraDev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Nov 2022 20:24:07 +0200</lastBuildDate><atom:link href="https://blog.webstra.dev/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building your Tech Portfolio. - Part 2</title>
+      <link>https://blog.webstra.dev/posts/building-your-tech-portfolio-part2/</link>
+      <pubDate>Fri, 25 Nov 2022 20:24:07 +0200</pubDate>
+      
+      <guid>https://blog.webstra.dev/posts/building-your-tech-portfolio-part2/</guid>
+      
+        <description>Organizing your existing projects on GitHub</description>
+      
+    </item>
+    
+    <item>
+      <title>Building your Tech Portfolio. - Part 1</title>
+      <link>https://blog.webstra.dev/posts/building-your-tech-portfolio-part1/</link>
+      <pubDate>Tue, 15 Nov 2022 20:24:07 +0200</pubDate>
+      
+      <guid>https://blog.webstra.dev/posts/building-your-tech-portfolio-part1/</guid>
+      
+        <description>A series on building your coding projects the right way, from the very beginning.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
