@@ -6,18 +6,7 @@
     <description>Recent content on WebstraDev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jun 2024 20:24:07 +0200</lastBuildDate><atom:link href="https://blog.webstra.dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test</title>
-      <link>https://blog.webstra.dev/posts/test/</link>
-      <pubDate>Sun, 16 Jun 2024 20:24:07 +0200</pubDate>
-      
-      <guid>https://blog.webstra.dev/posts/test/</guid>
-      
-        <description>This is a simple test blog to test the new deployment.</description>
-      
-    </item>
-    
+    <lastBuildDate>Tue, 15 Nov 2022 20:24:07 +0200</lastBuildDate><atom:link href="https://blog.webstra.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building your Tech Portfolio. - Part 1</title>
       <link>https://blog.webstra.dev/posts/building-your-tech-portfolio-part1/</link>
