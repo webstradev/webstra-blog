@@ -7,7 +7,7 @@ draft = false
 #### A series on building your coding projects the right way, from the very beginning.
 
 ![image of a computer](/images/coder-image.jpg)
-Photo by [Joshua Aragon](https://unsplash.com/@goshua13?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on[Unsplas](https://unsplash.com/photos/turned-on-laptop-computer-BMnhuwFYr7w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+Photo by [Joshua Aragon](https://unsplash.com/@goshua13?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/turned-on-laptop-computer-BMnhuwFYr7w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ---
 ### Introduction
