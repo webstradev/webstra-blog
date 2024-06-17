@@ -13,6 +13,16 @@ theme = "anatole"
   favicon = "favicons/"
   keywords = ""
   contentratio = 0.75
+  postSectionName = "blog"
+  fullPostContent = true
+  enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    weight = 100
+    url = "/"
   
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
