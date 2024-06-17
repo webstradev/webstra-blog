@@ -19,10 +19,15 @@ theme = "anatole"
 
 [menu]
   [[menu.main]]
-    name = "Blog"
-    identifier = "blog"
+    name = "Recent"
+    identifier = "home"
     weight = 100
     url = "/"
+  [[menu.main]]
+    name = "All Posts"
+    identifier = "blog"
+    weight = 200
+    url = "/posts"
   
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
