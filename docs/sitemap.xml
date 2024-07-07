@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.webstra.dev/posts/</loc>
+    <lastmod>2024-06-18T21:09:17+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.webstra.dev/</loc>
+    <lastmod>2024-06-18T21:09:17+02:00</lastmod>
+  </url><url>
     <loc>https://blog.webstra.dev/posts/building-your-tech-portfolio-part2/</loc>
     <lastmod>2022-11-25T20:24:07+02:00</lastmod>
   </url><url>
@@ -11,9 +17,6 @@
     <loc>https://blog.webstra.dev/tags/portfolio/</loc>
     <lastmod>2022-11-25T20:24:07+02:00</lastmod>
   </url><url>
-    <loc>https://blog.webstra.dev/posts/</loc>
-    <lastmod>2022-11-25T20:24:07+02:00</lastmod>
-  </url><url>
     <loc>https://blog.webstra.dev/tags/projects/</loc>
     <lastmod>2022-11-25T20:24:07+02:00</lastmod>
   </url><url>
@@ -21,9 +24,6 @@
     <lastmod>2022-11-25T20:24:07+02:00</lastmod>
   </url><url>
     <loc>https://blog.webstra.dev/tags/</loc>
-    <lastmod>2022-11-25T20:24:07+02:00</lastmod>
-  </url><url>
-    <loc>https://blog.webstra.dev/</loc>
     <lastmod>2022-11-25T20:24:07+02:00</lastmod>
   </url><url>
     <loc>https://blog.webstra.dev/posts/building-your-tech-portfolio-part1/</loc>
