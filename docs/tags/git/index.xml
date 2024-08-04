@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on WebstraDev Blog</title>
-    <link>http://localhost:1313/tags/git/</link>
+    <link>https://blog.webstra.dev/tags/git/</link>
     <description>Recent content in Git on WebstraDev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 May 2023 21:23:17 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 21:23:17 +0200</lastBuildDate><atom:link href="https://blog.webstra.dev/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitLab&#39;s semi-linear Git history</title>
-      <link>http://localhost:1313/posts/semi-linear-git-history/</link>
+      <link>https://blog.webstra.dev/posts/semi-linear-git-history/</link>
       <pubDate>Thu, 18 May 2023 21:23:17 +0200</pubDate>
       
-      <guid>http://localhost:1313/posts/semi-linear-git-history/</guid>
+      <guid>https://blog.webstra.dev/posts/semi-linear-git-history/</guid>
       
         <description>Photo by Yancy Min on Unsplash
 Introduction Working with multiple developers on the same project can often result in messy git histories and unnecessary merge commits when updating feature branches from main.
