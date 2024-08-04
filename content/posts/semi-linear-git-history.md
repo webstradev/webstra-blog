@@ -77,6 +77,8 @@ This will result in merge requests that can only be merged if a fast-forward mer
 
 Let's look at a history where we update our feature branches from main using `git rebase` instead of `git merge`, but still merge feature branches into main with a `git merge` (resulting in a merge commit). This gives us a much cleaner history where the commits from the feature branch are added on top of the latest commit on main with a merge commit so the entire merge can easily be reverted.
 
+![Semi-Linear Example](/images/semi-linear-example.gif)
+
 ### Pro's
 1. As you can see in the image below, commits still retain their actual commit dates; however, they are ordered based on when they were merged to `main`. This leads to a much cleaner git history whilst still preserving merge commits allowing for easy reverts and traceability.
 
