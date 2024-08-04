@@ -11,7 +11,7 @@
   <title>
     Erik Westra (webstradev)
         |
-        Grafecully shutting down in Go
+        Git
       
 
     
@@ -84,9 +84,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="http://localhost:1313/posts/graceful-shutdown-in-go/" />
+  <link rel="canonical" href="http://localhost:1313/tags/git/" />
 
   
+  <link rel="alternate" type="application/rss+xml" href="/tags/git/index.xml" title="WebstraDev Blog" />
   
   
   
@@ -116,96 +117,23 @@
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Grafecully shutting down in Go">
-  <meta name="twitter:description" content="Introuduction Can you imagine going to a grocery store right around closing time. You run inside, scramble to get everything on your shopping list and as you get to the checkout line the cashier just walks away and goes home? This is essentially what we do to our users when we don’t gracefully shut down our applications.
-If we were to arrive at the store and the doors were already closed, we can probably live with the fact that we need to come back tomorrow, but once we are let into the store, we should be able to complete our business right?">
+  <meta name="twitter:title" content="Git">
+  <meta name="twitter:description" content="Erik Westra">
 
 
 
   
-  <meta property="og:url" content="http://localhost:1313/posts/graceful-shutdown-in-go/">
+  <meta property="og:url" content="http://localhost:1313/tags/git/">
   <meta property="og:site_name" content="WebstraDev Blog">
-  <meta property="og:title" content="Grafecully shutting down in Go">
-  <meta property="og:description" content="Introuduction Can you imagine going to a grocery store right around closing time. You run inside, scramble to get everything on your shopping list and as you get to the checkout line the cashier just walks away and goes home? This is essentially what we do to our users when we don’t gracefully shut down our applications.
-If we were to arrive at the store and the doors were already closed, we can probably live with the fact that we need to come back tomorrow, but once we are let into the store, we should be able to complete our business right?">
+  <meta property="og:title" content="Git">
+  <meta property="og:description" content="Erik Westra">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-06-18T21:09:17+02:00">
-    <meta property="article:modified_time" content="2024-06-18T21:09:17+02:00">
+  <meta property="og:type" content="website">
 
 
 
   
   
-  
-  
-  <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "articleSection": "posts",
-        "name": "Grafecully shutting down in Go",
-        "headline": "Grafecully shutting down in Go",
-        "alternativeHeadline": "",
-        "description": "
-      
-        Introuduction Can you imagine going to a grocery store right around closing time. You run inside, scramble to get everything on your shopping list and as you get to the checkout line the cashier just walks away and goes home? This is essentially what we do to our users when we don\u0026rsquo;t gracefully shut down our applications.\nIf we were to arrive at the store and the doors were already closed, we can probably live with the fact that we need to come back tomorrow, but once we are let into the store, we should be able to complete our business right?
-
-
-      
-
-
-    ",
-        "inLanguage": "en-us",
-        "isFamilyFriendly": "true",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "http:\/\/localhost:1313\/posts\/graceful-shutdown-in-go\/"
-        },
-        "author" : {
-            "@type": "Person",
-            "name": "Erik Westra (webstradev)"
-        },
-        "creator" : {
-            "@type": "Person",
-            "name": "Erik Westra (webstradev)"
-        },
-        "accountablePerson" : {
-            "@type": "Person",
-            "name": "Erik Westra (webstradev)"
-        },
-        "copyrightHolder" : {
-            "@type": "Person",
-            "name": "Erik Westra (webstradev)"
-        },
-        "copyrightYear" : "2024",
-        "dateCreated": "2024-06-18T21:09:17.00Z",
-        "datePublished": "2024-06-18T21:09:17.00Z",
-        "dateModified": "2024-06-18T21:09:17.00Z",
-        "publisher":{
-            "@type":"Organization",
-            "name": "Erik Westra (webstradev)",
-            "url": "http://localhost:1313/",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "http:\/\/localhost:1313\/favicons\/favicon-32x32.png",
-                "width":"32",
-                "height":"32"
-            }
-        },
-        "image": 
-      [
-      ]
-
-    ,
-        "url" : "http:\/\/localhost:1313\/posts\/graceful-shutdown-in-go\/",
-        "wordCount" : "171",
-        "genre" : [ ],
-        "keywords" : [ ]
-    }
-  </script>
-
 
 </head>
 <body class="body">
@@ -372,25 +300,27 @@ If we were to arrive at the store and the doors were already closed, we can prob
 </div>
 </header>
   <div
-    class="post 
+    class="archive 
       animated fadeInDown
     "
   >
     
-    <div class="post__content">
-      <h1>Grafecully Shutting Down in Go</h1>
-      <h3 id="introuduction">Introuduction</h3>
-<p>Can you imagine going to a grocery store right around closing time. You run inside, scramble to get everything on your shopping list and as you get to the checkout line the cashier just walks away and goes home? This is essentially what we do to our users when we don&rsquo;t gracefully shut down our applications.</p>
-<p>If we were to arrive at the store and the doors were already closed, we can probably live with the fact that we need to come back tomorrow, but once we are let into the store, we should be able to complete our business right?</p>
-<p><em>In this post, we will explore how to prevent new customers from entering the store, but also allow the ones already inside to finish up before we close up shop completely.</em></p>
-<h3 id="247-stores">24/7 Stores</h3>
-<p>Some might say a grocery store is a bad example becase software should be available 24/7. This is true, but even 24/7 stores need to sometimes temporarily close their doors for maintenance, restocking or other reasons.</p>
-</div>
-    <div class="post__footer">
+      <div class="archive__heading">2023</div>
       
+        <ul class="archive__list">
+          <li class="archive__list-item">
+            <a class="archive__list-title" href="/posts/semi-linear-git-history/" title="GitLab&#39;s semi-linear Git history">GitLab&#39;s semi-linear Git history</a>
+            <div class="archive__list-date">
+              
+                
+                  May 18
+                
 
+              
+            </div>
+          </li>
+        </ul>
       
-    </div>
 
     
   </div>
